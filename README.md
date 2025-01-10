@@ -10,7 +10,5 @@ I spend my days working as a full-time developer, bringing ideas to life with my
 - **Always Learning**: I enjoy discovering new tools, improving my skills, and pushing myself with new challenges.
 
 Feel free to check out my projects in my documentation and reach out if you’d like to connect. Let’s make something awesome together! 🚀
-
-## Connect With Me
 🌟 **GitHub**: [thekrocker](https://github.com/thekrocker)  
 💼 **LinkedIn**: [Safa Dedeakay](https://www.linkedin.com/in/safadedeakay/)  
