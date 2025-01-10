@@ -2,7 +2,7 @@
 
 ## About Me
 Hi there! 👋  
-I’m **Safa Dedeakay**, a game developer who loves creating fun and unique experiences. With **over 7 years of experience in Unity** and growing skills in **Unreal Engine** and **Blender**, I’ve worked on a variety of games, from multiplayer adventures to creative personal projects.
+I’m **Safa Dedeakay**, a game developer who loves creating fun and unique experiences. With **over 7 years of experience in Unity and C#** and growing skills in **Unreal Engine** and **C++**, I’ve worked on a variety of games, from multiplayer adventures to creative personal projects.
 I spend my days working as a full-time developer, bringing ideas to life with my team. In my free time, I work on my own projects. I’m always looking for ways to make games fun, engaging, and memorable.
 
 ## My Approach
