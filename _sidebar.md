@@ -9,3 +9,4 @@
   - [Last Zone](last-zone)
   - [Idle Bakery Empire](bakery-empire)
   - [Aquapark Tycoon](aquapark-tycoon)
+  - [Idle Lumber World](idle-lumber-world)
