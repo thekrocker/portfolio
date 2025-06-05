@@ -1,15 +1,17 @@
 # Welcome to My Portfolio!
 
 ## About Me
-Hi there! 👋  
-I’m **Safa Dedeakay**, a game developer who loves creating fun and unique experiences. With **over 7 years of experience in Unity and C#** and growing skills in **Unreal Engine** and **C++**, I’ve worked on a variety of games, from multiplayer adventures to creative personal projects.
-I spend my days working as a full-time developer, bringing ideas to life with my team. In my free time, I work on my own projects. I’m always looking for ways to make games fun, engaging, and memorable.
+Hi, I’m **Safa Dedeakay**, a game developer with over **7 years of experience** using **Unity and C#**, and more recently expanding into **Unreal Engine and C++**.  
+I’ve worked on a mix of games — from multiplayer titles at work to smaller personal projects I build in my free time.
 
-## My Approach
-- **Clean and Scalable Code**: I focus on building systems that are simple and easy to expand.
-- **Always Learning**: I enjoy discovering new tools, improving my skills, and pushing myself with new challenges.
+I enjoy designing systems that are easy to understand, cleanly coded, and built to last. Whether I’m learning a new tool or tweaking a mechanic, I like keeping things fun and practical.
 
-Feel free to check out my projects in my documentation and reach out if you’d like to connect. Let’s make something awesome together! 🚀
+## How I Work
+- I care about **writing clean and scalable code**
+- I’m always looking for ways to **learn and improve**
+- I like building things that are **simple, but feel good to play**
 
-🌟 **GitHub**: [thekrocker](https://github.com/thekrocker)  
-💼 **LinkedIn**: [Safa Dedeakay](https://www.linkedin.com/in/safadedeakay/)  
+Thanks for checking out my work — feel free to explore the projects in the sidebar.
+
+📂 **GitHub**: [thekrocker](https://github.com/thekrocker)  
+👤 **LinkedIn**: [Safa Dedeakay](https://www.linkedin.com/in/safadedeakay/)
