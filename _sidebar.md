@@ -10,3 +10,5 @@
   - [Idle Bakery Empire](bakery-empire)
   - [Aquapark Tycoon](aquapark-tycoon)
   - [Idle Lumber World](idle-lumber-world)
+  - [Food Tile Match](food-tile-match)
+  - [Toon Blast (Clone)](toon-blast-clone)
