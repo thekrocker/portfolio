@@ -1,14 +1,15 @@
 <!-- markdownlint-disable first-line-h1 -->
 
 - Getting started
-
   - [Introduction](README)
 
 - Projects
-
-  - [Last Zone #Hybrid-Casual](last-zone)
-  - [Idle Bakery Empire #Hybrid-Casual](bakery-empire)
-  - [Aquapark Tycoon #Hybrid-Casual](aquapark-tycoon)
-  - [Idle Lumber World #Hybrid-Casual](idle-lumber-world)
-  - [Food Tile Match #Casual](food-tile-match)
-  - [Toon Blast (Clone) #Casual](toon-blast-clone)
+  - Hybrid Casual
+    - [Idle Bakery Empire](bakery-empire)
+    - [Aquapark Tycoon](aquapark-tycoon)
+  - Idle Games
+    - [Idle Lumber World](idle-lumber-world)
+    - [Last Zone](last-zone)
+  - Puzzle
+    - [Food Tile Match](food-tile-match)
+    - [Toon Blast (Clone)](toon-blast-clone)
