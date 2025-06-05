@@ -4,12 +4,14 @@
   - [Introduction](README)
 
 - Projects
+  - Idle Games
+    - [Last Zone](last-zone)
+    - [Idle Lumber World](idle-lumber-world)
   - Hybrid Casual
     - [Idle Bakery Empire](bakery-empire)
     - [Aquapark Tycoon](aquapark-tycoon)
-  - Idle Games
-    - [Idle Lumber World](idle-lumber-world)
-    - [Last Zone](last-zone)
+    - [Fashion Challenge: Catwalk Run](fashion-challenge)
   - Puzzle
     - [Food Tile Match](food-tile-match)
     - [Toon Blast (Clone)](toon-blast-clone)
+    - [Hero Crush](hero-crush)
