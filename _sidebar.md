@@ -6,9 +6,9 @@
 
 - Projects
 
-  - [Last Zone](last-zone)
-  - [Idle Bakery Empire](bakery-empire)
-  - [Aquapark Tycoon](aquapark-tycoon)
-  - [Idle Lumber World](idle-lumber-world)
-  - [Food Tile Match](food-tile-match)
-  - [Toon Blast (Clone)](toon-blast-clone)
+  - [Last Zone #Hybrid-Casual](last-zone)
+  - [Idle Bakery Empire #Hybrid-Casual](bakery-empire)
+  - [Aquapark Tycoon #Hybrid-Casual](aquapark-tycoon)
+  - [Idle Lumber World #Hybrid-Casual](idle-lumber-world)
+  - [Food Tile Match #Casual](food-tile-match)
+  - [Toon Blast (Clone) #Casual](toon-blast-clone)
