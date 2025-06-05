@@ -3,6 +3,9 @@
 - Getting started
 
   - [Introduction](README)
-  - [Example Second Page](second-page)
 
 - Projects
+
+  - [Last Zone](last-zone)
+  - [Idle Bakery Empire](bakery-empire)
+  - [Aquapark Tycoon](aquapark-tycoon)
