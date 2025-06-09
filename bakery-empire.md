@@ -85,7 +85,30 @@
 
 ## 🧠 Lessons Learned
 
-> I learned to separate game state from view logic, design feature gates for LiveOps, and implement decoupled systems with proper SOLID architecture.
+> Working on *Idle Bakery Empire* helped me refine my ability to build maintainable and scalable idle game systems, especially for mobile.
+
+- **Modular System Design**  
+  I learned the value of breaking complex systems (e.g., production lines, upgrade logic, offline earnings) into **single-responsibility components**. Leveraging ScriptableObjects and Zenject allowed me to easily add new bakery products and upgrades without modifying core logic.
+
+
+- **Offline Earnings & Time Integrity**  
+  Implementing a secure and fair offline earnings system challenged me to think deeply about **time tracking vs. device manipulation**. I built a hybrid system using both device time and server-synced timestamps (when available), and created fallback logic for edge cases.
+
+- **Mobile Performance Optimization**  
+  I gained practical experience profiling and optimizing for **low-end Android devices**. I reduced UI canvas rebuilds, batched similar GameObjects, pooled VFX, and optimized GC allocations—resulting in a stable 60 FPS across most test devices.
+
+
+- **LiveOps Consideration**  
+  I designed the economy and reward systems with **future LiveOps flexibility in mind**, including event toggles, daily streaks, and reward multipliers. All values are driven by remote-configurable data to allow tuning without client updates.
+
+
+- **UX Matters in Idle Games**  
+  I iterated on the bakery upgrade UI multiple times after testing with users. The smallest changes (e.g., adding visual feedback when income increases) had noticeable effects on retention. I now treat **clarity and reward feedback as core mechanics**, not polish.
+
+
+- **Content Pipeline Awareness**  
+  As I added more upgrade levels and bakery products, I realized the importance of creating a **clean asset/content pipeline**. I created custom inspectors for balancing and validating reward curves, which saved a lot of time during production.
+
 
 ---
 
