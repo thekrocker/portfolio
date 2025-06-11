@@ -1,25 +1,25 @@
-<!-- _sidebar.md -->
+<!-- markdownlint-disable first-line-h1 -->
 
-- 📘 Getting Started
-  - [📄 Introduction](README.md)
+- Getting started
+  - [Introduction](README)
 
-- 📱 Mobile Projects
-  - 📦 Idle Games
-    - [🥖 Last Zone](last-zone.md)
-    - [🪓 Idle Lumber World](idle-lumber-world.md)
-  - 🎮 Hybrid Casual
-    - [🍰 Idle Bakery Empire](bakery-empire.md)
-    - [🌊 Aquapark Tycoon](aquapark-tycoon.md)
-    - [👗 Fashion Challenge: Catwalk Run](fashion-challenge.md)
-  - 🧩 Puzzle
-    - [🍔 Food Tile Match](food-tile-match.md)
-    - [🧨 Toon Blast (Clone)](toon-blast-clone.md)
-    - [🦸 Hero Crush](hero-crush.md)
+- Mobile Projects
+  - Idle Games
+    - [Last Zone](last-zone)
+    - [Idle Lumber World](idle-lumber-world)
+  - Hybrid Casual
+    - [Idle Bakery Empire](bakery-empire)
+    - [Aquapark Tycoon](aquapark-tycoon)
+    - [Fashion Challenge: Catwalk Run](fashion-challenge)
+  - Puzzle
+    - [Food Tile Match](food-tile-match)
+    - [Toon Blast (Clone)](toon-blast-clone)
+    - [Hero Crush](hero-crush)
 
-- 💻 PC Projects
-  - ⚔️ Action RPG
-    - [🛡️ Action RPG X – Gameplay Ability System](action-rpg-x.md)
-  - 🧊 Survival
-    - [🏕️ Survival X – Multiplayer Project](survival-x.md)
-  - 👻 Horror
-    - [😱 Horror X](horror-x.md)
+- PC Projects
+  - Action RPG
+    - [Action RPG X - Gameplay Ability System](action-rpg-x)
+  - Survival
+    - [Survival X - Multiplayer Project](survival-x) 
+  - Horror
+    - [Horror X](horror-x)
