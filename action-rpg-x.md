@@ -73,10 +73,7 @@
 
 - **Tag System**  
   Designed a custom tag schema like:
-  Ability.Melee.Attack.Basic
-  Ability.Melee.Attack.Strong
-  State.Stunned
-  Cooldown.Dash
+  `Ability.Melee.Attack.Basic`,   `Ability.Melee.Attack.Strong`,  `State.Stunned`,  `Cooldown.Dash`
   and used Tag Queries in effect application and AI logic.
   
 ---
