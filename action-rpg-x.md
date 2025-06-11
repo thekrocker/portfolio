@@ -16,25 +16,35 @@
 
 ## 📸 Media
 
-<p align="center">
-  <a href="https://www.youtube.com/watch?v=zm9DI4lpowE" target="_blank">
-    <img src="https://i3.ytimg.com/vi/zm9DI4lpowE/maxresdefault.jpg" width="600" alt="Watch the Gameplay Trailer">
-  </a>
-</p>
-
 > *Preview of melee combat using Gameplay Ability System and animation-based hit detection.*
 
 ---
 
 ## 💻 What I Did
 
-- Implemented **all gameplay mechanics** using GAS, including combat, stamina, dashing, and status effects.
-- Created a **custom ability system component and actor attribute sets** in C++ for full control and performance.
-- Integrated **combo chains and animation montages** using GAS abilities with section-based transitions.
-- Designed a **scalable effect system** for buffs, DOTs, and resource drains using GameplayEffectModifiers.
-- Built an ability queuing system and **ability tags** for input gating and conditional triggers.
-- Created debugging tools to visualize active abilities, cooldowns, and applied effects in real-time.
-- Designed the **HUD and UI logic** to reflect dynamic GAS-driven attributes like HP, Stamina, and Ability Cooldowns.
+- Implemented **all core gameplay systems** using Unreal’s Gameplay Ability System (GAS), including light/heavy attacks, dashing, stamina drain, blocking, and damage-over-time effects.
+- Wrote all **ability logic, attribute sets, effect calculations, and activation conditions** in C++ for full performance control and flexibility.
+- Created a **custom `UAbilitySystemComponent`** wrapper with helper functions for applying instant, duration-based, and periodic effects.
+- Developed a **combo chain system** using **animation montage section transitions** and `AbilityTask_PlayMontageAndWaitForEvent`, allowing conditional continuation into different attack types (light → heavy → finisher).
+- Integrated **Ability Tags and Tag Queries** to control:
+  - Input gating (e.g., cannot dash while stunned)
+  - Blocking interrupts
+  - Cooldowns and cost validation
+- Built a **robust gameplay effect system** that handles:
+  - Buffs and debuffs with durations
+  - Stamina cost per ability
+  - Health regeneration and status ailments (burn, poison, bleed)
+
+- Architected and synced **HUD/UI elements** for attributes like Health, Stamina, and Cooldowns — updated in real-time using GAS replication and delegates.
+
+### 🔄 Animation System Integration
+
+- Set up **upper-body animation layering** using **Blend Poses by bool** and **Slot Nodes**, allowing attacks to play on the upper body while retaining locomotion in the lower body.
+- Created and managed **animation layers** for armed state, blocking stance.
+- Used `AnimNotifies` to trigger damage windows, particle effects, camera shakes, and sound cues — precisely synced to montage timings.
+- Configured **animation blueprint state machines** to reflect GAS states (e.g., stunned, knockdown) and transition smoothly with blend times.
+
+
 
 ---
 
@@ -84,7 +94,7 @@
 - Understood how **animation syncing** can make or break the feel of combat, and how GAS can enhance this by cleanly separating logic and animation timing.
 - Learned to design reusable **Ability Blueprints** while keeping the logic in C++ for performance and clarity.
 - Built a mental model of how **Tags, Effects, and Abilities** interact to drive modular combat design.
-- Improved my ability to debug GAS by creating **visual tools and breakpoints** in ability flow.
+- Improved my ability to debug GAS by using **visual tools and breakpoints** in ability flow.
 
 ---
 
