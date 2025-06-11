@@ -20,9 +20,9 @@ My focus is on writing clean, maintainable code and building systems that are ea
 
 ## Tech Stack
 
-**Unity (C#):** Zenject, UniTask, DOTween, ScriptableObjects, Addressables, UI Toolkit, Netcode, Firebase, Playfab 
+**Unity (C#):** Zenject (or any DI framework), UniTask, PrimeTween, ScriptableObjects, Addressables, UI Toolkit, Netcode, Firebase, Playfab 
 
-**Unreal Engine (C++):** Gameplay Ability System (GAS), Enhanced Input, Replication, Animation Montages, Actor Components
+**Unreal Engine (C++):** Gameplay Ability System (GAS), Enhanced Input, Replication, Animation Montages, Actor Components, Motion Matching
 
 ---
 Feel free to check out my work through the sidebar.
