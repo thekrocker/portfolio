@@ -1,17 +1,32 @@
-# Welcome to My Portfolio!
+# Welcome to My Portfolio
 
-## About Me
-Hi, I’m **Safa Dedeakay**, a game developer with over **7 years of experience** using **Unity and C#**, and more recently expanding into **Unreal Engine and C++**.  
-I’ve worked on a mix of games — from multiplayer titles at work to smaller personal projects I build in my free time.
+Hi, I’m **Safa Dedeakay**, a gameplay programmer with over **7 years of experience** in **Unity (C#)** and growing skills in **Unreal Engine (C++)**.
 
-I enjoy designing systems that are easy to understand, cleanly coded, and built to last. Whether I’m learning a new tool or tweaking a mechanic, I like keeping things fun and practical.
+I primarily develop **mobile games** using Unity, focusing on performance, UI/UX, and scalable architecture. Alongside that, I’ve worked on both **singleplayer** and **multiplayer PC projects** in both Unity and Unreal Engine, building systems for networking, gameplay, and combat.
 
-## How I Work
-- I care about **writing clean and scalable code**
-- I’m always looking for ways to **learn and improve**
-- I like building things that are **simple, but feel good to play**
+My focus is on writing clean, maintainable code and building systems that are easy to expand and satisfying to play.
 
-Thanks for checking out my work — feel free to explore the projects in the sidebar.
+
+---
+
+## What I Do
+
+- Build modular and scalable gameplay systems
+- Use data-driven architecture and design patterns
+- Develop custom editor tools to speed up production and improve workflows
+- Balance clean code with player-focused features
+
+---
+
+## Tech Stack
+
+**Unity (C#):** Zenject, UniTask, DOTween, ScriptableObjects, Addressables, UI Toolkit, Netcode, Firebase, Playfab 
+**Unreal Engine (C++):** Gameplay Ability System (GAS), Enhanced Input, Replication, Animation Montages, Actor Components
+
+---
+Feel free to check out my work through the sidebar.
+
+## Contact
 
 📂 **GitHub**: [thekrocker](https://github.com/thekrocker)  
 👤 **LinkedIn**: [Safa Dedeakay](https://www.linkedin.com/in/safadedeakay/)
