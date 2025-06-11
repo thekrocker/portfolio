@@ -22,7 +22,7 @@ My focus is on writing clean, maintainable code and building systems that are ea
 
 **Unity (C#):** Zenject (or any DI framework), UniTask, PrimeTween, ScriptableObjects, Addressables, UI Toolkit, Netcode, Firebase, Playfab 
 
-**Unreal Engine (C++):** Gameplay Ability System (GAS), Enhanced Input, Replication, Animation Montages, Actor Components, Motion Matching
+**Unreal Engine (C++):** Gameplay Ability System (GAS), Enhanced Input, Replication, Animation Montages, Actor Components, Motion Matching, Behaviour Tree, State Tree, AI Queries
 
 ---
 Feel free to check out my work through the sidebar.
