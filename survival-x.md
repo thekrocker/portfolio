@@ -14,6 +14,16 @@
 
 ---
 
+## 📸 Media
+
+<div style="display: flex; gap: 12px; flex-wrap: wrap; justify-content: flex-start;">
+  <img src="https://play-lh.googleusercontent.com/oOGxMu-Kqfin4k6Cn-auiYRiy9LY9bQ3mE60kPAVVI8hqa7F-aQMb4QQkZGXUq-VKAQy=w2560-h1440-rw" style="width: 20%;" alt="Gameplay Screenshot">
+</div>
+
+> *Gameplay from survival exploration and lab-based crafting cycle.*  
+
+---
+
 ## 🔄 Core Gameplay Loop
 
 - Start inside the **sci-fi lab**, your mobile base and only safe zone  
