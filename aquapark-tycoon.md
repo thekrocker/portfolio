@@ -23,6 +23,7 @@
 <div style="display: flex; gap: 12px; flex-wrap: wrap; justify-content: flex-start;">
   <img src="https://play-lh.googleusercontent.com/496F_Gvcc8mlndYht_zhECvAzq6JBcXTYYW-HgCapW-Q6JywheyoowAHMZ9xj8xv2KA=w2560-h1440-rw" style="width: 20%;" alt="Gameplay Screenshot">
   <img src="https://play-lh.googleusercontent.com/9pTnwKEcIdiWrVYy5D8K9AM9N93c5q3jppFnj406nyDXwj5OEBEzYLv6ZxglEXk8Fa1o=w2560-h1440-rw" style="width: 20%;" alt="Gameplay Screenshot">
+  <img src="https://play-lh.googleusercontent.com/wI8Su6R5TzWc8a6JOUW-iwWO4BLZTvsVjg6KnVluPceuTwBHEcnYeeQujViHFyvunswj=w2560-h1440-rw" style="width: 20%;" alt="Gameplay Screenshot">
 </div>
 
 
