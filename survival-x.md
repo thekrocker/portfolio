@@ -84,4 +84,4 @@ Biome difficulty scales over time. Crafting the right gear is key to survival in
 
 ## 📦 Tech Stack
 
-`Unreal Engine 5 • C++ • Blueprints • Gameplay Ability System (Optional) • Modular Inventory • Dynamic Environment Logic • Time-Triggered Events • Crafting System • Save/Load System`
+`Unreal Engine 5 • C++ • Blueprints • Gameplay Ability System • Modular Inventory • Dynamic Environment Logic • Time-Triggered Events • Crafting System • Save/Load System`
