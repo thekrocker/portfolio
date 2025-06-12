@@ -17,6 +17,15 @@
 
 ---
 
+## 📸 Media
+
+<div style="display: flex; gap: 12px; flex-wrap: wrap; justify-content: flex-start;">
+  <img src="https://play-lh.googleusercontent.com/jtu4OrV_iY1TB2Bkhv1kiFjwG7hkb1ZOUhLyr4tLWqM-DbY7KN50ji9WIfLqVjV9AA=w2560-h1440-rw" style="width: 20%;" alt="Gameplay Screenshot">
+  <img src="https://play-lh.googleusercontent.com/kQrTVCDT4I1vDDVWFwZ4XnY28GI9IWQJCw4Ddy-Gs6IXt0S0yW6u-dGfa_dCRdTMb0g=w2560-h1440-rw" style="width: 20%;" alt="Gameplay Screenshot">
+</div>
+
+---
+
 ## 💻 What I Did
 
 - Built and maintained **all core systems** from the ground up using a **modular, service-based architecture**  
