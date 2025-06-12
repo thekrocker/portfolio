@@ -21,6 +21,10 @@
 
 <div style="display: flex; gap: 12px; flex-wrap: wrap; justify-content: flex-start;">
   <img src="https://play-lh.googleusercontent.com/jtu4OrV_iY1TB2Bkhv1kiFjwG7hkb1ZOUhLyr4tLWqM-DbY7KN50ji9WIfLqVjV9AA=w2560-h1440-rw" style="width: 20%;" alt="Gameplay Screenshot">
+  <img src="https://i.postimg.cc/8JdLmFGH/Ekran-g-r-nt-s-2025-06-12-135135.png" style="width: 20%;" alt="Gameplay Screenshot">
+  <img src="https://i.postimg.cc/8JghvR2c/Ekran-g-r-nt-s-2025-06-12-135212.png" style="width: 20%;" alt="Gameplay Screenshot">
+  <img src="https://postimg.cc/Lq1thC0G" target="_blank"><img src="https://i.postimg.cc/Lq1thC0G/Ekran-g-r-nt-s-2025-06-12-135351.png" style="width: 20%;" alt="Gameplay Screenshot">
+  <img src="https://i.postimg.cc/VJT9fQ4j/Ekran-g-r-nt-s-2025-06-12-135410.png" style="width: 20%;" alt="Gameplay Screenshot">
 </div>
 
 ---
