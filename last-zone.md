@@ -20,10 +20,10 @@
 ## 📸 Media
 
 <div style="display: flex; gap: 12px; flex-wrap: wrap; justify-content: flex-start;">
-<a href="https://ibb.co/FknV5kGX"><img src="https://i.ibb.co/ZRNmBRyS/Ekran-g-r-nt-s-2025-06-12-135410.png" style="width: 20%;" alt="last-zone-ss" border="0"></a>
-<a href="https://ibb.co/QvcYTqyq"><img src="https://i.ibb.co/s9PsND8D/Ekran-g-r-nt-s-2025-06-12-135351.png" style="width: 20%;" alt="last-zone-ss" border="0"></a>
-<a href="https://ibb.co/fVkHzTNp"><img src="https://i.ibb.co/HLtqf9Pz/Ekran-g-r-nt-s-2025-06-12-135212.png" style="width: 20%;" alt="last-zone-ss" border="0"></a>
-<a href="https://ibb.co/PG7wJ238"><img src="https://i.ibb.co/KxMFBtRH/Ekran-g-r-nt-s-2025-06-12-135135.png" style="width: 20%;" alt="last-zone-ss" border="0"></a>
+<img src="https://i.ibb.co/ZRNmBRyS/Ekran-g-r-nt-s-2025-06-12-135410.png" style="width: 20%;" alt="last-zone-ss" border="0"></a>
+<img src="https://i.ibb.co/s9PsND8D/Ekran-g-r-nt-s-2025-06-12-135351.png" style="width: 20%;" alt="last-zone-ss" border="0"></a>
+<img src="https://i.ibb.co/HLtqf9Pz/Ekran-g-r-nt-s-2025-06-12-135212.png" style="width: 20%;" alt="last-zone-ss" border="0"></a>
+<img src="https://i.ibb.co/KxMFBtRH/Ekran-g-r-nt-s-2025-06-12-135135.png" style="width: 20%;" alt="last-zone-ss" border="0"></a>
 </div>
 
 ---
