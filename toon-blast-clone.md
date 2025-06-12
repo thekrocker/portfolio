@@ -14,6 +14,18 @@
 
 ---
 
+## 📸 Media
+
+<div style="display: flex; gap: 12px; flex-wrap: wrap; justify-content: flex-start;">
+  <img src="https://www.sdedeakay.com/wp-content/uploads/2023/01/movie_0031.gif" style="width: 20%;" alt="Gameplay Screenshot">
+  <img src="https://www.sdedeakay.com/wp-content/uploads/2023/01/movie_005-1.gif" style="width: 20%;" alt="Gameplay Screenshot">
+  <img src="https://www.sdedeakay.com/wp-content/uploads/2023/01/movie_009.gif" style="width: 20%;" alt="Gameplay Screenshot">
+</div>
+
+> *Style your model, hit the runway, and climb the leaderboard in this live-operated fashion challenge.*
+
+---
+
 ## 💻 What I Did
 
 - Created the **entire game from scratch**, including all core systems and visuals in under a week  
