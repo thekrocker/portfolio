@@ -36,7 +36,6 @@ My focus is on writing clean, maintainable code and building systems that are ea
 - **Systems Architecture**: Actor Components, Modular Gameplay Systems, Blueprint/C++ Hybrid Architecture
 - **Tools & Optimization**: Custom Editor Utilities, Performance Profiling, Memory Management, Asset Streaming
 
----
 
 I’m comfortable working across high-level system design, low-level optimization, live data integration, and tool development for both Unity and Unreal Engine projects.
 
