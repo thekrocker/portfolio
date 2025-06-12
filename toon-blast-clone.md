@@ -45,4 +45,35 @@
 
 ## 🧪 Challenges & Solutions
 
-> **Challenge**: Efficiently detecting
+> **Challenge**: Efficiently detecting and tracking adjacent matches with color rules  
+> **Solution**: Implemented a recursive flood-fill approach optimized for performance and clarity
+
+> **Challenge**: Dynamic board layout on different screen sizes  
+> **Solution**: Created a camera controller and board frame scaler that adapt to board dimensions with margin safety
+
+---
+
+## 🔬 Technical Highlights
+
+- **Flood-Fill Algorithm** for match detection  
+- **2D Array-based Board Grid** with pooled objects  
+- **Custom Editor Tool** for level building using Resources folder auto-loading  
+- **Object Pooling System** to avoid runtime instantiation costs  
+- **Modifier Architecture** built around interfaces (`IUntouchable`, `IModifierTriggerable`) for easy expansion  
+- **Responsive Board** system: adjusts both visual frame and orthographic size automatically  
+
+---
+
+## 🧠 Lessons Learned
+
+- Algorithm performance matters — flood-fill and search operations must be lean  
+- Rapid prototyping benefits massively from having good editor tooling early on  
+- Clean modifier design using interfaces made chaining and new behavior integration much easier  
+- UI/UX polish for match feedback (collapse, reward triggers) is key to a satisfying puzzle feel  
+- Given more time, I would replace PlayerPrefs with JSON-based saving and integrate Firebase for LiveOps potential
+
+---
+
+## 📦 Tech Stack
+
+`Unity • C# • Flood-Fill Algorithm • Custom Level Editor • Object Pooling • 2D Grid System • Modifier Pattern • Responsive Design`
