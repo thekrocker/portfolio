@@ -12,6 +12,8 @@
 - **Language**: C#
 - **Tools**: Zenject, DOTween, UniTask, Firebase, Adjust, GameAnalytics
 
+[Play on Google Play Store](https://play.google.com/store/apps/details?id=games.rawbyte.bakeryidle&hl=en)
+
 ---
 
 ## 📸 Media
