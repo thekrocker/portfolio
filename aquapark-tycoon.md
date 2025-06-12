@@ -12,6 +12,8 @@
 - **Language**: C#  
 - **Tools**: Zenject (DI), UniTask, DOTween, Firebase, Addressables  
 
+[Play on Google Play Store](https://play.google.com/store/apps/details?id=games.rawbyte.waterparktycoon)
+
 ---
 
 ## 📸 Media
@@ -23,7 +25,6 @@
   <img src="https://play-lh.googleusercontent.com/9pTnwKEcIdiWrVYy5D8K9AM9N93c5q3jppFnj406nyDXwj5OEBEzYLv6ZxglEXk8Fa1o=w2560-h1440-rw" style="width: 20%;" alt="Gameplay Screenshot">
 </div>
 
-[Play on Google Play Store](https://play.google.com/store/apps/details?id=games.rawbyte.waterparktycoon)
 
 ---
 
