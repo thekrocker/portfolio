@@ -10,7 +10,9 @@
 - **Platform**: Android  
 - **Engine**: Unity 2022.3  
 - **Language**: C#  
-- **Tools**: Zenject, UniTask, Firebase Remote Config, DOTween, Addressables, GameAnalytics  
+- **Tools**: Zenject, UniTask, Firebase Remote Config, DOTween, Addressables, GameAnalytics
+
+[Play on Crazy Games](https://www.crazygames.com/tr/oyun/fashion-challenge-catwalk-run)
 
 ---
 
@@ -18,7 +20,6 @@
 
 > *Style your model, hit the runway, and climb the leaderboard in this live-operated fashion challenge.*
 
-[Play on Google Play Store](https://play.google.com/store/apps/details?id=com.TriflesGames.FashionChallenge)
 
 ---
 
