@@ -18,7 +18,10 @@
 
 ## 📸 Media
 
-
+<div style="display: flex; gap: 12px; flex-wrap: wrap; justify-content: flex-start;">
+  <img src="https://play-lh.googleusercontent.com/hVD2bjoktwDmIaQEhae_xJIZ4Vh-wx1nRpkurJnq-n6Rwr9r9LI9qbvD82HYSPm7znc=w2560-h1440-rw" style="width: 20%;" alt="Gameplay Screenshot">
+  <img src="https://play-lh.googleusercontent.com/kQrTVCDT4I1vDDVWFwZ4XnY28GI9IWQJCw4Ddy-Gs6IXt0S0yW6u-dGfa_dCRdTMb0g=w2560-h1440-rw" style="width: 20%;" alt="Gameplay Screenshot">
+</div>
 
 ---
 
