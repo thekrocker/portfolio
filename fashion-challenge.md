@@ -18,8 +18,13 @@
 
 ## 📸 Media
 
-> *Style your model, hit the runway, and climb the leaderboard in this live-operated fashion challenge.*
+<div style="display: flex; gap: 12px; flex-wrap: wrap; justify-content: flex-start;">
+  <img src="https://play-lh.googleusercontent.com/oOGxMu-Kqfin4k6Cn-auiYRiy9LY9bQ3mE60kPAVVI8hqa7F-aQMb4QQkZGXUq-VKAQy=w2560-h1440-rw" style="width: 20%;" alt="Gameplay Screenshot">
+  <img src="https://play-lh.googleusercontent.com/_nB549vV4g10xRMEjPSRKJ991r8h6bL6zYKOgLqzVMZUycIrs-52nEkrMp4CmL4SOMI=w2560-h1440-rw" style="width: 20%;" alt="Gameplay Screenshot">
+  <img src="https://play-lh.googleusercontent.com/fNMHWQtvP5wfu4K_1xLIyRohBA_wrD7WzT6Ybrl5pHFuZ02vJ0dsW7zLL5PjjhwQgytx=w2560-h1440-rw" style="width: 20%;" alt="Gameplay Screenshot">
+</div>
 
+> *Style your model, hit the runway, and climb the leaderboard in this live-operated fashion challenge.*
 
 ---
 
