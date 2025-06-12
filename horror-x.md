@@ -20,7 +20,6 @@
   <img src="_media/horror/horror-1.png" style="width: 20%;" alt="Gameplay Screenshot">
   <img src="_media/horror/horror-2.png" style="width: 20%;" alt="Gameplay Screenshot">
   <img src="_media/horror/horror-3.png" style="width: 20%;" alt="Gameplay Screenshot">
-
 </div>
 
 ---

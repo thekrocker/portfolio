@@ -2,8 +2,6 @@
 
 > A Grindstone-inspired puzzle game where players select adjacent enemies to unleash powerful combos, use skills, and conquer strategic levels.
 
-[Play Demo](https://www.sdedeakay.com/hero-crush/)
-
 ---
 
 ## 🗂 Overview
@@ -13,6 +11,20 @@
 - **Engine**: Unity  
 - **Language**: C#  
 - **Tools**: Custom Level Editor, Object Pooling, ScriptableObjects, Event System  
+
+---
+
+## 📸 Media
+
+<div style="display: flex; gap: 12px; flex-wrap: wrap; justify-content: flex-start;">
+  <img src="_media/hero-crush/hero-crush-level-editor.png" style="width: 20%;" alt="Gameplay Screenshot">
+  <img src="_media/hero-crush/hero-crush-lv1.png" style="width: 20%;" alt="Gameplay Screenshot">
+  <img src="_media/hero-crush/hero-crush-tutorial.png" style="width: 20%;" alt="Gameplay Screenshot">
+</div>
+
+
+> [Watch the Gameplay Trailer](https://www.youtube.com/watch?v=d8ED-qzVyHE)
+
 
 ---
 
