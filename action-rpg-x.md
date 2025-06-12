@@ -16,10 +16,11 @@
 
 ## 📸 Media
 
-<video width="640" controls>
-  <source src="_media/actionrpg/showcase-1.mp4" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
+<div style="display: flex; gap: 12px; flex-wrap: wrap; justify-content: flex-start;">
+  <img src="_media/actionrpg/showcase-1.gif" style="width: 20%;" alt="Gameplay Screenshot">
+  <img src="_media/actionrpg/showcase-gas-2.png" style="width: 20%;" alt="Gameplay Screenshot">
+</div>
+
 > *Showcase of combat, abilities, and animation syncing using GAS.*
 
 ---
