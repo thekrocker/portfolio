@@ -44,4 +44,30 @@
 > **Challenge**: Rendering and interacting with hundreds of trees in a single scene  
 > **Solution**: Used mesh combining, pooled objects, and group batching strategies to minimize overhead on mobile.
 
-> **Challenge**: Designing a scalable save
+> **Challenge**: Designing a scalable save system to track upgrades and world state  
+> **Solution**: Created a custom save architecture with per-zone and per-feature data separation, reducing load/save time and supporting future expansion.
+
+---
+
+## 🔬 Technical Highlights
+
+- Modular system design following SRP and clean architecture principles  
+- Save system built around data-driven serialization, supporting both versioning and partial restore  
+- Interaction logic abstracted via interfaces, allowing future reuse (NPCs, zones, tools)  
+- MeshCombiner utility to group nearby trees and reduce CPU/GPU load dynamically  
+- Addressables used for dynamic zone loading and content separation  
+
+---
+
+## 🧠 Lessons Learned
+
+- Clean, modular architecture is essential when building systems with expanding complexity  
+- Mesh combination can drastically improve mobile performance but needs careful planning for interactivity  
+- Advanced save systems should be extensible from the start to avoid refactoring during feature growth  
+- Building scalable interaction systems early speeds up future feature development and designer iteration  
+
+---
+
+## 📦 Tech Stack
+
+`Unity • C# • Zenject • UniTask • DOTween • ScriptableObjects • Addressables • Mesh Combining • Object Pooling`
