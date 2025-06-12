@@ -18,6 +18,8 @@
 
 > *Manage water slides, ticket booths, pools, and expand your park into a full aqua-themed empire.*
 
+![logo](https://play-lh.googleusercontent.com/496F_Gvcc8mlndYht_zhECvAzq6JBcXTYYW-HgCapW-Q6JywheyoowAHMZ9xj8xv2KA=w2560-h1440-rw ':size=100')
+![logo](https://play-lh.googleusercontent.com/9pTnwKEcIdiWrVYy5D8K9AM9N93c5q3jppFnj406nyDXwj5OEBEzYLv6ZxglEXk8Fa1o=w2560-h1440-rw ':size=100')
 [Play on Google Play Store](https://play.google.com/store/apps/details?id=games.rawbyte.waterparktycoon)
 
 ---
