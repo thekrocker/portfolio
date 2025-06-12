@@ -18,11 +18,28 @@ My focus is on writing clean, maintainable code and building systems that are ea
 
 ---
 
-## Tech Stack
+## 📦 Tech Stack
 
-**Unity (C#):** Zenject (or any DI framework), UniTask, PrimeTween, ScriptableObjects, Addressables, UI Toolkit, Netcode, Firebase, Playfab 
+### Unity (C#)
+- **Architecture & Patterns**: Dependency Injection, UniTask, SO Event System, Reactive Programming (UniRx, Custom Event Systems), FSM
+- **UI Systems**: UI Toolkit, UGUI, Async UI flows, Tweening (DOTween, PrimeTween)
+- **LiveOps & Backend**: Firebase, Remote Config, PlayFab, GameAnalytics, Adjust
+- **ECS & Performance**: Unity DOTS (Entities, Jobs, Burst), Object Pooling, Draw Call Optimization
+- **Multiplayer**: Unity Netcode (NGO), Custom RPC Frameworks, Lag Compensation
+- **Content Systems**: Addressables, Custom Editors & Tooling, Level/Quest Editors
 
-**Unreal Engine (C++):** Gameplay Ability System (GAS), Enhanced Input, Replication, Animation Montages, Actor Components, Motion Matching, Behaviour Tree, State Tree, AI Queries
+### Unreal Engine (C++)
+- **Core Systems**: Gameplay Ability System (GAS), Attribute Sets, Gameplay Tags
+- **Input & Animation**: Enhanced Input System, Animation Montages, Motion Matching, Layered Animation, Animation Blueprint Design
+- **AI**: Behavior Trees, State Trees, AI Perception, Environment Query System (EQS), Blackboard Logic
+- **Networking**: Replication (RPC, RepNotifies), Authority Handling, Prediction Systems
+- **Systems Architecture**: Actor Components, Modular Gameplay Systems, Blueprint/C++ Hybrid Architecture
+- **Tools & Optimization**: Custom Editor Utilities, Performance Profiling, Memory Management, Asset Streaming
+
+---
+
+I’m comfortable working across high-level system design, low-level optimization, live data integration, and tool development for both Unity and Unreal Engine projects.
+
 
 ---
 Feel free to check out my work through the sidebar.
