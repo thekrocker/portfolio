@@ -16,6 +16,12 @@
 
 ---
 
+## 📸 Media
+
+
+
+---
+
 ## 💻 What I Did
 
 - Developed the **booster logic**, allowing players to undo moves, shuffle tiles, or eliminate blocks  
