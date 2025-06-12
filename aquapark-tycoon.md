@@ -26,7 +26,7 @@
 
 - Built the core idle loop: earnings → upgrades → unlock new zones  
 - Created zone-based progression with unlock animations and level design tools  
-- Developed visitor **AI using a simple state machine system** (Idle, Walk, Swim, Interact) to simulate realistic guest behavior and increase production polish  
+- Developed visitor & worker **AI using a simple state machine system** (Idle, Walk, Swim, Interact, Clean, Fix) to simulate realistic guest behavior and increase production polish  
 - Simulated **basic swimming and water physics** for better immersion and visual feedback  
 - Used ScriptableObjects to define and balance attractions, upgrades, and costs  
 - Used **Zenject** for scalable and testable architecture  
