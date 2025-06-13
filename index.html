@@ -2,55 +2,54 @@
 <html lang="en">
 
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport"
-    content="width=device-width, initial-scale=1, minimum-scale=1.0, shrink-to-fit=no, viewport-fit=cover">
-
-  <!-- Replace with your own title and description. -->
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Safa Dedeakay</title>
-  <link rel="icon" href="_media/icon.ico"/>
+  <link rel="icon" href="_media/icon.ico" />
   <meta name="description" content="Well, Hello there.">
 
-  <!-- Default Theme (see https://docsify.js.org/#/themes) -->
-  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify/lib/themes/vue.css">
+  <!-- Theme -->
+  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify/lib/themes/vue.css" />
   <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify-sidebar-collapse/dist/sidebar.min.css" />
-
 </head>
 
 <body>
-  <div id="app"></div>
+<div id="app"></div>
 
-  <script>
-    // Docsify Configuration (see https://docsify.js.org/#/configuration)
-    window.$docsify = {
-      name: 'safadedeakay',
-      // Sidebar Configuration
-      auto2top: true,
-      loadSidebar: true,
-      maxLevel: 0,
-      // Set subMaxLevel to 0 to remove automatic display of page table of contents (TOC) in Sidebar
-      subMaxLevel: 0,
-      sidebarDisplayLevel: 0,
-      
+<!-- CONFIG MUST BE DEFINED IN A MODULE -->
+<script type="module">
+  import nord from 'https://esm.sh/@shikijs/themes/nord';
+  import csharp from 'https://esm.sh/@shikijs/langs/csharp';
 
-      // Search Plugin Configuration
-      search: {
-        placeholder: 'Type to search',
-        noData: 'No matches found.',
-        // Headline depth, 1 - 6
-        depth: 2,
-      }
-    };
-  </script>
+  window.$docsify = {
+    name: 'safadedeakay',
+    auto2top: true,
+    loadSidebar: true,
+    maxLevel: 0,
+    subMaxLevel: 0,
+    sidebarDisplayLevel: 0,
+    search: {
+      placeholder: 'Type to search',
+      noData: 'No matches found.',
+      depth: 2,
+    },
+    shiki: {
+      theme: nord,
+      langs: [csharp], // Add your preferred languages
+    }
+  };
+</script>
 
-  <!-- Required -->
-  <script src="https://cdn.jsdelivr.net/npm/docsify@4/lib/docsify.min.js"></script>
-  
+<!-- Load Docsify Core -->
+<script src="https://cdn.jsdelivr.net/npm/docsify@4"></script>
 
-  <!-- Recommended -->
-  <script src="https://cdn.jsdelivr.net/npm/docsify@4/lib/plugins/zoom-image.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/docsify@4/lib/plugins/search.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/docsify-sidebar-collapse/dist/docsify-sidebar-collapse.min.js"></script>
+<!-- Load docsify-shiki (must come after Docsify) -->
+<script type="module" src="https://cdn.jsdelivr.net/npm/docsify-shiki@1"></script>
 
+<!-- Optional Plugins -->
+<script src="https://cdn.jsdelivr.net/npm/docsify@4/lib/plugins/zoom-image.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/docsify@4/lib/plugins/search.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/docsify-sidebar-collapse/dist/docsify-sidebar-collapse.min.js"></script>
 </body>
+
 </html>
