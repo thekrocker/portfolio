@@ -19,8 +19,11 @@
 
 <body>
   <div id="app"></div>
-  
-  <script>
+
+  <script type="module">
+    import synthwave84 from 'https://esm.sh/@shikijs/themes@1/synthwave-84';
+    import csharp from 'https://esm.sh/@shikijs/langs@1/ts';
+    
     window.$docsify = {
       name: 'safadedeakay',
       // Sidebar Configuration
@@ -38,20 +41,12 @@
         // Headline depth, 1 - 6
         depth: 2,
         },
-      
-    };
-  </script>
 
-  <!-- IMPORTANT: config must be defined as a module -->
-  <script type="module">
-    // import themes and languages from esm.sh
-    import synthwave84 from 'https://esm.sh/@shikijs/themes@1/synthwave-84';
-    import csharp from 'https://esm.sh/@shikijs/langs@1/ts';
-    window.$docsify = {
       shiki: {
         theme: synthwave84,
         langs: [csharp],
       },
+      
     };
   </script>
   
