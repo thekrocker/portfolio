@@ -25,7 +25,6 @@
     import synthwave84 from 'https://esm.sh/@shikijs/themes@1/synthwave-84';
     import csharp from 'https://esm.sh/@shikijs/langs/csharp';
     
-    
     window.$docsify = {
       name: 'safadedeakay',
       // Sidebar Configuration
@@ -35,17 +34,19 @@
       // Set subMaxLevel to 0 to remove automatic display of page table of contents (TOC) in Sidebar
       subMaxLevel: 0,
       sidebarDisplayLevel: 0,
+      
       // Search Plugin Configuration
       search: {
         placeholder: 'Type to search',
         noData: 'No matches found.',
         // Headline depth, 1 - 6
         depth: 2,
-        shiki: {
-          theme: synthwave84,
-          langs: [csharp],
         },
-      }
+      
+      shiki: {
+        theme: synthwave84,
+        langs: [csharp],
+      },
     };
   </script>
 
