@@ -20,7 +20,10 @@
 <body>
   <div id="app"></div>
 
-  <script>
+  <script type="module">
+    import nord from 'https://esm.sh/@shikijs/themes@1/nord';
+    import csharp from 'https://esm.sh/@shikijs/langs@1/csharp';
+    
     window.$docsify = {
       name: 'safadedeakay',
       // Sidebar Configuration
@@ -38,24 +41,15 @@
         // Headline depth, 1 - 6
         depth: 2,
         },
-      
-    };
-  </script>
 
-  <!-- IMPORTANT: config must be defined as a module -->
-  <script type="module">
-    // import themes and languages from esm.sh
-    import nord from 'https://esm.sh/@shikijs/themes@1/nord';
-    import csharp from 'https://esm.sh/@shikijs/langs@1/csharp';
-    import vue from 'https://esm.sh/@shikijs/langs@1/vue';
-
-    window.$docsify = {
       shiki: {
         theme: nord,
         langs: [csharp],
       }
+      
     };
   </script>
+
   
   <!-- Required -->
   <script src="https://cdn.jsdelivr.net/npm/docsify@4/lib/docsify.min.js"></script>
