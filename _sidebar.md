@@ -31,6 +31,6 @@
     - [🧠 GAS Architecture Notes](gas-architecture.md)
   - 🛠️ Editor Scripting
     - [🗒️ Scene Notes](README.md)
-    - [📁 Folder Creator](README.md)
+    - [📁 Folder Creator](folder-creator.md)
     - [🎨 Texture Grayscaler](README.md)
 
