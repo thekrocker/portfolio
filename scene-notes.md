@@ -26,19 +26,19 @@
 ### 🔹 Placing Notes in Scene
 
 <div style="display: flex; gap: 12px; flex-wrap: wrap; justify-content: flex-start;">
-  <img src="_media/dev-hub/scene-note-1.png" style="width: 75%;" alt="Gameplay Screenshot">
+  <img src="_media/dev-hub/scene-note-1.png" style="width: 40%;" alt="Gameplay Screenshot">
 </div>
 
 ### 🔹 Customization Options in Inspector
 
 <div style="display: flex; gap: 12px; flex-wrap: wrap; justify-content: flex-start;">
-  <img src="_media/dev-hub/scene-note-2.png" style="width: 75%;" alt="Gameplay Screenshot">
+  <img src="_media/dev-hub/scene-note-2.png" style="width: 40%;" alt="Gameplay Screenshot">
 </div>
 
 ### 🔹 Visual Result in Scene View
 
 <div style="display: flex; gap: 12px; flex-wrap: wrap; justify-content: flex-start;">
-  <img src="_media/dev-hub/scene-note-3.png" style="width: 75%;" alt="Gameplay Screenshot">
+  <img src="_media/dev-hub/scene-note-3.png" style="width: 40%;" alt="Gameplay Screenshot">
 </div>
 
 ---
