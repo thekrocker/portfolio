@@ -41,7 +41,23 @@
       
     };
   </script>
-  
+
+  <!-- IMPORTANT: config must be defined as a module -->
+  <script type="module">
+    // import themes and languages from esm.sh
+    import nord from 'https://esm.sh/@shikijs/themes@1/nord';
+    import ts from 'https://esm.sh/@shikijs/langs@1/ts';
+    import vue from 'https://esm.sh/@shikijs/langs@1/vue';
+
+    window.$docsify = {
+      shiki: {
+        theme: nord,
+        langs: [ts, vue],
+      }
+    };
+  </script>
+  <script src="//cdn.jsdelivr.net/npm/docsify@v4"></script>
+  <script type="module" src="//cdn.jsdelivr.net/npm/docsify-shiki@v1"></script>
   
   <!-- Required -->
   <script src="https://cdn.jsdelivr.net/npm/docsify@4/lib/docsify.min.js"></script>
