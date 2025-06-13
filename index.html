@@ -18,9 +18,10 @@
 
 <!-- CONFIG MUST BE DEFINED IN A MODULE -->
 <script type="module">
-  import nord from 'https://esm.sh/@shikijs/themes/nord';
+  import synthwave84 from 'https://esm.sh/@shikijs/themes@1/synthwave-84';
   import csharp from 'https://esm.sh/@shikijs/langs/csharp';
-
+  import cpp from 'https://esm.sh/@shikijs/langs/cpp';
+  
   window.$docsify = {
     name: 'safadedeakay',
     auto2top: true,
@@ -34,8 +35,8 @@
       depth: 2,
     },
     shiki: {
-      theme: nord,
-      langs: [csharp], // Add your preferred languages
+      theme: synthwave84,
+      langs: [csharp, cpp], // Add your preferred languages
     }
   };
 </script>
