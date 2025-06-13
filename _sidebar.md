@@ -30,7 +30,7 @@
     - [🔧️ C# Extension Methods](csharp-extensions.md)
     - [🧠 GAS Architecture Notes](gas-architecture.md)
   - 🛠️ Editor Scripting
-    - [🗒️ Scene Notes](README.md)
+    - [🗒️ Scene Notes](scene-notes.md)
     - [📁 Folder Creator](folder-creator.md)
     - [🎨 Texture Grayscaler](README.md)
 
