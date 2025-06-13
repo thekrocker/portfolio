@@ -26,10 +26,12 @@
    
 - 📦 My Dev Hub
   - 📄 Articles
+    - [🗃️ Scriptable Objects: Better Data Management](so-basics.md)
+    - [🔧️ C# Extension Methods](csharp-extensions.md)
     - [🧠 GAS Architecture Notes](README.md)
     - [⚙️ Project Optimization Tips](README.md)
   - 🛠️ Editor Scripting
     - [🗒️ Scene Notes](README.md)
-    - [📁 Folder Onboarding](README.md)
+    - [📁 Folder Creator](README.md)
     - [🎨 Texture Grayscaler](README.md)
 
