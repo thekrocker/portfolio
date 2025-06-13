@@ -28,8 +28,7 @@
   - 📄 Articles
     - [🗃️ Scriptable Objects: Better Data Management](so-basics.md)
     - [🔧️ C# Extension Methods](csharp-extensions.md)
-    - [🧠 GAS Architecture Notes](README.md)
-    - [⚙️ Project Optimization Tips](README.md)
+    - [🧠 GAS Architecture Notes](gas-architecture.md)
   - 🛠️ Editor Scripting
     - [🗒️ Scene Notes](README.md)
     - [📁 Folder Creator](README.md)
