@@ -26,10 +26,10 @@
    
 - 📦 My Dev Hub
   - 📄 Articles
-    - [🧠 GAS Architecture Notes]()
-    - [⚙️ Project Optimization Tips]()
+    - [🧠 GAS Architecture Notes](README.md)
+    - [⚙️ Project Optimization Tips](README.md)
   - 🛠️ Editor Scripting
-    - [🗒️ Scene Notes]()
-    - [📁 Folder Onboarding]()
-    - [🎨 Texture Grayscaler]()
+    - [🗒️ Scene Notes](README.md)
+    - [📁 Folder Onboarding](README.md)
+    - [🎨 Texture Grayscaler](README.md)
 
