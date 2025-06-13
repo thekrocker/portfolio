@@ -19,12 +19,8 @@
 
 <body>
   <div id="app"></div>
-
-  <script type="module">
-    // Docsify Configuration (see https://docsify.js.org/#/configuration)
-    import synthwave84 from 'https://esm.sh/@shikijs/themes@1/synthwave-84';
-    import csharp from 'https://esm.sh/@shikijs/langs/csharp';
-    
+  
+  <script>
     window.$docsify = {
       name: 'safadedeakay',
       // Sidebar Configuration
@@ -43,12 +39,25 @@
         depth: 2,
         },
       
+    };
+  </script>
+
+  <!-- IMPORTANT: config must be defined as a module -->
+  <script type="module">
+    // import themes and languages from esm.sh
+    import synthwave84 from 'https://esm.sh/@shikijs/themes@1/synthwave-84';
+    import csharp from 'https://esm.sh/@shikijs/langs@1/ts';
+    window.$docsify = {
       shiki: {
         theme: synthwave84,
         langs: [csharp],
       },
     };
   </script>
+  
+  
+  <script src="//cdn.jsdelivr.net/npm/docsify@v4"></script>
+  <script type="module" src="//cdn.jsdelivr.net/npm/docsify-shiki@v1"></script>
 
   <!-- Required -->
   <script src="https://cdn.jsdelivr.net/npm/docsify@4/lib/docsify.min.js"></script>
