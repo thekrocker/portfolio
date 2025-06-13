@@ -20,8 +20,12 @@
 <body>
   <div id="app"></div>
 
-  <script>
+  <script type="module">
     // Docsify Configuration (see https://docsify.js.org/#/configuration)
+    import synthwave84 from 'https://esm.sh/@shikijs/themes@1/synthwave-84';
+    import csharp from 'https://esm.sh/@shikijs/langs/csharp';
+    
+    
     window.$docsify = {
       name: 'safadedeakay',
       // Sidebar Configuration
@@ -37,6 +41,8 @@
         noData: 'No matches found.',
         // Headline depth, 1 - 6
         depth: 2,
+        theme: synthwave84,
+        langs: [csharp],
       }
     };
   </script>
@@ -49,6 +55,7 @@
   <script src="https://cdn.jsdelivr.net/npm/docsify@4/lib/plugins/zoom-image.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/docsify@4/lib/plugins/search.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/docsify-sidebar-collapse/dist/docsify-sidebar-collapse.min.js"></script>
+  <script type="module" src="//cdn.jsdelivr.net/npm/docsify-shiki@v1"></script>
 
 </body>
 </html>
