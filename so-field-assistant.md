@@ -71,4 +71,6 @@ On click:
 
 ## 🧠 Why I Built It
 
-Working with data-driven systems in Unity often means handling tons of ScriptableObjects. Manually creating and assigning them breaks flow. This tool exists to fix that — turning a
+Working with data-driven systems in Unity often means handling tons of ScriptableObjects. Manually creating and assigning them breaks flow. This tool exists to fix that — turning a slow, multi-step process into a single click.
+
+---
