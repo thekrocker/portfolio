@@ -24,7 +24,11 @@ No need to leave the inspector, create the asset manually, and then drag it back
 
 ## 🖼️ Preview
 
-![SO Field Assistant Preview](media/dev-hub/so-field-assistant-preview.png)
+<div style="display: flex; gap: 12px; flex-wrap: wrap; justify-content: flex-start;">
+  <img src="_media/dev-hub/so_asisstant_1.png" style="width: 50%;" alt="Gameplay Screenshot">
+  <img src="_media/dev-hub/so_asisstant_2.png" style="width: 50%;" alt="Gameplay Screenshot">
+  <img src="_media/dev-hub/so_asisstant_3.png" style="width: 50%;" alt="Gameplay Screenshot">
+</div>
 
 ---
 
