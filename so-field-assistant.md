@@ -24,21 +24,21 @@ No need to leave the inspector, create the asset manually, and then drag it back
 
 ## 🖼️ Preview
 
-### Step 1
+### Step 1: Click on click button.
 <div style="display: flex; gap: 12px; flex-wrap: wrap; justify-content: flex-start;">
   <img src="_media/dev-hub/so_asisstant_1.png" style="width: 50%;" alt="Gameplay Screenshot">
 </div>
 
 ---
 
-### Step 2
+### Step 2: Select a folder to save the asset.
 <div style="display: flex; gap: 12px; flex-wrap: wrap; justify-content: flex-start;">
   <img src="_media/dev-hub/so_asisstant_2.png" style="width: 50%;" alt="Gameplay Screenshot">
 </div>
 
 ---
 
-### Step 3
+### Step 3: Your asset is automatically assigned.
 <div style="display: flex; gap: 12px; flex-wrap: wrap; justify-content: flex-start;">
   <img src="_media/dev-hub/so_asisstant_3.png" style="width: 50%;" alt="Gameplay Screenshot">
 </div>
