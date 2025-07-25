@@ -26,9 +26,9 @@ Whether you're debugging save states, inspecting corrupted data, or testing new 
 ## 🖼️ Preview
 
 <div style="display: flex; gap: 12px; flex-wrap: wrap; justify-content: flex-start;">
-  <img src="_media/dev-hub/save-system-0.png" style="width: 40%;" alt="Gameplay Screenshot">
-  <img src="_media/dev-hub/save-system-1.png" style="width: 40%;" alt="Gameplay Screenshot">
-  <img src="_media/dev-hub/save-system-2.png" style="width: 40%;" alt="Gameplay Screenshot">
+  <img src="_media/dev-hub/save-system-0.png" style="width: 60%;" alt="Gameplay Screenshot">
+  <img src="_media/dev-hub/save-system-1.png" style="width: 60%;" alt="Gameplay Screenshot">
+  <img src="_media/dev-hub/save-system-2.png" style="width: 60%;" alt="Gameplay Screenshot">
 </div>
 
 ---
