@@ -37,5 +37,6 @@
     - [💾 Save Viewer](save-viewer.md)
   - 🧩 Code Snippets
     - [🗒️ Using Analytics Event Services](analytics-services-snippets.md)
+    - [🗒️ Robust Stacking System](robust-stack-snippets.md)
 
 
