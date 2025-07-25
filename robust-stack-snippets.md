@@ -129,11 +129,11 @@ Internally uses **`UniTask`** for async execution.
 
 - Holds stack of `IStackItem`
 - Handles adding/removing with filtering
-- Reacts to upgrades via `IStackUpgradeSource`
-
-Handles visuals using injected `IStackLayout`.
+- Handles visuals using `IStackLayout`.
 
 ```csharp
+[SerializeReference] private IStackLayout layout;
+layout.CalculateLayout(_stack, out var positions, out var rotations);
 public bool CanProvide(IStackFilter filter)
 public IStackItem TakeItem(IStackFilter filter)
 public void AddItem(IStackItem item)
