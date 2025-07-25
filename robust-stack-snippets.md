@@ -132,10 +132,15 @@ Internally uses **`UniTask`** for async execution.
 - Handles visuals using `IStackLayout`.
 
 ```csharp
-[SerializeReference] private IStackLayout layout;
-layout.CalculateLayout(_stack, out var positions, out var rotations);
+[SerializeReference]
+private IStackLayout layout; // Allows us to pick layout from inspector
+
+layout.CalculateLayout(_stack, out var positions, out var rotations); // Return positions & rotation to set stack visuals, like align vertically, grid based etc.
+
 public bool CanProvide(IStackFilter filter)
+
 public IStackItem TakeItem(IStackFilter filter)
+
 public void AddItem(IStackItem item)
 ```
 
