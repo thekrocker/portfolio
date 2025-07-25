@@ -49,7 +49,7 @@ public class GameAnalyticsEventService : IAnalyticsEventService
 
 ### 🔹 3. Register with Dependency Container
 
-In the `SDKInstaller`, I register my analytics service as a **singleton**, ensuring one instance throughout the app. Zenject's `ContainerBuilder` is used here.
+In the `SDKInstaller`, I register my analytics service as a **singleton**, ensuring one instance throughout the app. Reflex's `ContainerBuilder` is used here.
 
 ```csharp
 public class SDKInstaller : MonoBehaviour, IInstaller
