@@ -19,11 +19,7 @@ public interface IUpgrade
     bool CanUpgrade { get; }
     int GetCost();
     void ApplyUpgrade();
-    void LoadProgress(int level);
     UpgradeData GetUpgradeData();
-    float GetCurrentUpgradeValue();
-    float GetNextUpgradeValue();
-    float GetLevelRatio();
 }
 ```
 
@@ -40,8 +36,6 @@ public interface IUpgradeService
     int GetCost(string upgradeId);
     bool BuyUpgrade(string upgradeId);
     float GetCurrentValue(string upgradeId);
-    float GetNextValue(string upgradeId);
-    float GetLevelRatio(string upgradeId);
 }
 ```
 
@@ -57,7 +51,6 @@ Base class for specific upgrades. Uses `UpgradeData` ScriptableObject.
 public class MoveSpeedUpgrade : Upgrade
 {
     protected override void OnApply() { /* logic */ }
-    protected override void OnLoadProgress(int level) { /* logic */ }
 }
 ```
 
@@ -129,8 +122,6 @@ void UpgradeButtonClicked(string upgradeId)
     }
 }
 ```
-
-You can bind UI sliders to `GetLevelRatio`, `GetCurrentValue`, or `GetNextValue` to reflect real-time feedback.
 
 ---
 
