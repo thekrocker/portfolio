@@ -105,6 +105,12 @@ public void StartTransferFromSource(
     IStackSource source,
     IStackTarget target,
     params IStackTransferCondition[] conditions)
+
+public void StartFilteredTransferFromSource(
+    IStackSource source,
+    IStackTarget target,
+    IStackFilter filter,
+    params IStackTransferCondition[] conditions)
 ```
 
 Variants:
