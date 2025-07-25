@@ -25,6 +25,7 @@ Whether you're debugging save states, inspecting corrupted data, or testing new 
 
 ## 🖼️ Preview
 
+![Save Viewer](_media/dev-hub/save-system-0.png)
 ![Save Viewer](_media/dev-hub/save-system-1.png)
 ![Save Viewer](_media/dev-hub/save-system-2.png)
 
