@@ -25,7 +25,8 @@ Whether you're debugging save states, inspecting corrupted data, or testing new 
 
 ## 🖼️ Preview
 
-![Save Viewer](media/dev-hub/save-viewer.png)
+![Save Viewer](media/dev-hub/save-system-1.png)
+![Save Viewer](media/dev-hub/save-system-2.png)
 
 ---
 
@@ -38,11 +39,6 @@ Whether you're debugging save states, inspecting corrupted data, or testing new 
 
 ---
 
-## 🔗 GitHub Repository
-
-👉 [thekrocker/Save-Viewer](https://github.com/thekrocker/Save-Viewer)  
-_(You can update this link if repo differs.)_
-
 ---
 
 ## 🛠️ How It Works
@@ -50,7 +46,6 @@ _(You can update this link if repo differs.)_
 - Uses `Application.persistentDataPath` to locate save files
 - Filters `.json` files and reads metadata (size, date)
 - Provides per-file and global operations (view/delete)
-
 > Editor-only utility – not included in final game build.
 
 ---
