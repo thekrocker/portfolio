@@ -1,11 +1,19 @@
+# Stack System: Flexible, Extendable Stack Handling in Unity
 
-# Stack System: Filterable, Condition-Based Item Transfer Architecture
-
-The Stack System is designed to manage item stacking, filtering, and transferring logic in a highly flexible, decoupled, and extensible manner. It powers core systems like order delivery, machine outputs, and customer interactions, and it's composed of multiple interchangeable interfaces.
+This page showcases how I designed a fully modular and extendable **Stack System** for transferring and managing stacked items with filtering and custom transfer conditions.
 
 ---
 
-## Key Interfaces
+## 💡 Overview
+
+The Stack System is designed for item transfer logic in games (e.g., factory games, delivery chains, cooking systems). It supports:
+
+- **Filters**: to decide which items to pick
+- **Transfer Conditions**: to control when to stop transfers
+- **Layout**: for visual positioning of stacked items
+- **StackSource**/**StackTarget** interfaces for generalized item movement
+
+---
 
 ### `IStackSource` & `IStackTarget`
 These are the foundational interfaces for any object that can provide or accept stack items.
@@ -30,10 +38,9 @@ public interface IStackTarget
 
 ---
 
-## Filters
+## 🧰 Filters (`IStackFilter`)
 
-### `IStackFilter`
-Filters are used to determine which items can be transferred.
+Filters define logic to determine if a stack item matches a condition.
 
 ```csharp
 public interface IStackFilter
@@ -42,28 +49,25 @@ public interface IStackFilter
 }
 ```
 
-#### Examples
-
-- **AlwaysMatchFilter**: Accepts every item.
-- **StackTypeFilter**: Filters by item type.
-- **StackIdFilter**: Filters by item ID.
+### Examples:
 
 ```csharp
+public class AlwaysMatchFilter : IStackFilter
+{
+    public bool IsMatch(IStackItem item) => true;
+}
+
 public class StackTypeFilter : IStackFilter
 {
-    private readonly EItemType _foodItemType;
-    public StackTypeFilter(EItemType foodItemType) => _foodItemType = foodItemType;
-
-    public bool IsMatch(IStackItem item) => item.GetItemType() == _foodItemType;
+    public bool IsMatch(IStackItem item) => item.GetItemType() == _type;
 }
 ```
 
 ---
 
-## Conditions
+## 🛑 Transfer Conditions (`IStackTransferCondition`)
 
-### `IStackTransferCondition`
-Transfer conditions define when transfers should stop.
+Control when a transfer should **stop**:
 
 ```csharp
 public interface IStackTransferCondition
@@ -74,89 +78,107 @@ public interface IStackTransferCondition
 }
 ```
 
-#### Examples
-
-- **StopWhenTargetFull**: Stops if the target cannot accept more items.
-- **StopWhenSourceEmpty**: Stops if the source has no more items based on a filter.
-
----
-
-## `StackAction`
-
-The main class responsible for orchestrating the transfer logic. It supports multiple transfer entry points:
-
-### Filtered Transfer (Recommended)
+### Examples:
 
 ```csharp
-public void StartFilteredTransferFromSource(
-    IStackSource source,
-    IStackTarget target,
-    IStackFilter filter,
-    params IStackTransferCondition[] conditions)
+public class StopWhenTargetFull : IStackTransferCondition
 {
-    StopTransfer();
-    _cts = new CancellationTokenSource();
-    TransferAsync(
-        source,
-        target,
-        _transferInterval,
-        filter,
-        conditions,
-        _cts.Token
-    ).Forget();
+    public bool ShouldStop(IStackSource source, IStackTarget target) => !target.CanAccept();
 }
 ```
 
-This is the most flexible and readable way to start a transfer, as it allows both filtering and condition-based control.
+```csharp
+public class StopWhenSourceEmpty : IStackTransferCondition
+{
+    public bool ShouldStop(IStackSource source, IStackTarget target) => !source.CanProvide(_filter);
+}
+```
 
 ---
 
-## Layout System
+## 🔁 StackAction: Modular Transfer Logic
 
-Stack visuals are controlled by `IStackLayout`.
+`StackAction` coordinates item transfer between sources and targets.
+
+```csharp
+public void StartTransferFromSource(
+    IStackSource source,
+    IStackTarget target,
+    params IStackTransferCondition[] conditions)
+```
+
+Variants:
+
+- `StartTransferFromList()` – for static stacks
+- `StartTransferFromSource()` – no filter
+- `StartFilteredTransferFromSource()` – filtered transfer
+
+Internally uses **`UniTask`** for async execution.
+
+---
+
+## 📦 StackHandler: The Core Implementation
+
+`StackHandler` implements both `IStackSource` and `IStackTarget`, and manages stack visuals.
+
+- Holds stack of `IStackItem`
+- Handles adding/removing with filtering
+- Reacts to upgrades via `IStackUpgradeSource`
+
+Handles visuals using injected `IStackLayout`.
+
+```csharp
+public bool CanProvide(IStackFilter filter)
+public IStackItem TakeItem(IStackFilter filter)
+public void AddItem(IStackItem item)
+```
+
+---
+
+## 🧱 Layout System
+
+Handles the visual positioning of stack items.
 
 ```csharp
 public interface IStackLayout
 {
-    void CalculateLayout(IReadOnlyList<IStackItem> items, out Vector3[] positions, out Quaternion[] rotations);
-    Vector3 GetNextStackGlobalPosition(IReadOnlyList<IStackItem> items);
+    void CalculateLayout(...);
+    Vector3 GetNextStackGlobalPosition(...);
 }
 ```
 
-### `VerticalStackLayout` Example
+### Example:
 
 ```csharp
-[System.Serializable]
 public class VerticalStackLayout : IStackLayout
 {
-    [SerializeField] private Vector3 offset = new(0, 0.25f, 0);
-
-    public void CalculateLayout(IReadOnlyList<IStackItem> items, out Vector3[] positions, out Quaternion[] rotations)
-    {
-        positions = new Vector3[items.Count];
-        rotations = new Quaternion[items.Count];
-
-        for (int i = 0; i < items.Count; i++)
-        {
-            positions[i] = offset * i;
-            rotations[i] = Quaternion.identity;
-        }
-    }
-
-    public Vector3 GetNextStackGlobalPosition(IReadOnlyList<IStackItem> items)
-    {
-        return offset * items.Count;
-    }
+    public void CalculateLayout(...) { ... }
 }
 ```
 
 ---
 
-## Summary
+## ✅ Benefits
 
-✅ Decoupled and testable with `IStackSource` and `IStackTarget`  
-✅ Fully customizable filtering and stopping conditions  
-✅ Easy to extend with custom filters or conditions  
-✅ Smooth stacking visuals with layout support  
+- ✅ Clean separation of concerns
+- ✅ Easily extendable (new filters, conditions, layouts)
+- ✅ Plug & play architecture with interfaces
+- ✅ Works smoothly with dependency injection
 
-This design supports scalability and flexibility—perfect for expanding gameplay systems like production lines, customer queues, delivery systems, or crafting mechanics.
+---
+
+## 🔄 Example Use
+
+```csharp
+_stackAction.StartFilteredTransferFromSource(
+    source: someStack,
+    target: targetStack,
+    filter: new StackTypeFilter(EItemType.Bread),
+    new StopWhenTargetFull(),
+    new StopWhenSourceEmpty(filter)
+);
+```
+
+---
+
+This system is a great demonstration of how to apply **Strategy Pattern**, **DI**, and **async transfer control** in Unity while maintaining scalability and flexibility.
