@@ -35,4 +35,7 @@
     - [📁 Folder Creator](folder-creator.md)
     - [🎨 Texture Grayscaler](README.md)
     - [💾 Save Viewer](save-viewer.md)
+  - 🧩 Code Snippets
+    - [🗒️ Using Analytics Event Services](analytics-services-snippets.md)
+
 
