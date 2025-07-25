@@ -187,4 +187,76 @@ _stackAction.StartFilteredTransferFromSource(
 
 ---
 
-This system is a great demonstration of how to apply **Strategy Pattern**, **DI**, and **async transfer control** in Unity while maintaining scalability and flexibility.
+## 💡 Use Cases for Stack System
+
+The modular Stack System architecture allows us to flexibly manage item flow between sources and targets in a game environment. Here are some practical scenarios:
+
+---
+
+### 🥣 Use Case 1: Order Delivery to Customer
+
+**Scenario:** A chef prepares food and stacks it. When a customer is ready, the food must be delivered automatically.
+
+- **Source:** `ChefCounterStackHandler`
+- **Target:** `CustomerStackHandler`
+- **Filter:** `StackTypeFilter(EItemType.Food)`
+- **Condition:** `StopWhenSourceEmpty(filter)` or `StopWhenTargetFull()`
+
+```csharp
+var stackAction = new StackAction();
+stackAction.StartFilteredTransferFromSource(
+    chefCounter,
+    customerStack,
+    new StackTypeFilter(EItemType.Food),
+    new StopWhenSourceEmpty(new StackTypeFilter(EItemType.Food)),
+    new StopWhenTargetFull()
+);
+```
+
+---
+
+### 📦 Use Case 2: Resource Collection (e.g. Fruit Crate ➜ Basket)
+
+**Scenario:** Fruits spawn in crates periodically. Workers should collect and stack them into storage baskets.
+
+- **Source:** `FruitCrateStackHandler`
+- **Target:** `BasketStackHandler`
+- **Filter:** `StackTypeFilter(EItemType.Fruit)`
+- **Condition:** `StopWhenSourceEmpty(filter)`, `StopWhenTargetFull()`
+
+---
+
+### 🛒 Use Case 3: Shop Restocking System
+
+**Scenario:** When shelf items run low, a delivery box restocks the shelf automatically.
+
+- **Source:** `DeliveryBoxStackHandler`
+- **Target:** `ShelfStackHandler`
+- **Filter:** `StackIdFilter("Apple")` (to restock only apples)
+- **Condition:** Custom restocking condition like: `RestockWhenBelowThreshold("Apple", 5)`
+
+---
+
+### 🚚 Use Case 4: Truck Unloading to Warehouse
+
+**Scenario:** Trucks deliver random items. Workers unload them into the warehouse stack.
+
+- **Source:** `TruckStackHandler`
+- **Target:** `WarehouseStackHandler`
+- **Filter:** `AlwaysMatchFilter.Instance`
+- **Condition:** `StopWhenSourceEmpty()`
+
+---
+
+### 🎯 Use Case 5: Prioritized Filtering Logic
+
+**Scenario:** A universal storage sorts items into category-based zones.
+
+- **Source:** `UniversalInputStackHandler`
+- **Targets:** `MeatStorage`, `VegetableStorage`, etc.
+- **Filter:** Custom filters based on item categories.
+- **Approach:** Use separate `StackAction` instances per target with respective filters.
+
+---
+
+This flexible architecture allows for dynamic transfer logic, easy expansions, and clean separation of behaviors via filters and conditions.
